@@ -1,2 +1,2 @@
-# webpay-sdk-net-2.0.3
+# libwebpay-dotnet
 Legacy library for using webpay SOAP services
