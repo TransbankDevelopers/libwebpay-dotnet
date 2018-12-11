@@ -28,7 +28,7 @@ namespace Webpay.Transbank.Library
 
             WSSecuritySignature<SoapEnvelope, X509Certificate2> signed = new WSSecuritySignature<SoapEnvelope, X509Certificate2>();
 
-            X509Certificate2 certificate = new X509Certificate2(this.config.WebpayCert, this.config.Password);
+            X509Certificate2 certificate = new X509Certificate2(this.config.WebpayCert, this.config.Password, X509KeyStorageFlags.MachineKeySet);
 
 
             signed.Signature(envelope, certificate);
