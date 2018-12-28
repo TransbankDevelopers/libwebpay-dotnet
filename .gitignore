@@ -1,0 +1,5 @@
+**/obj/
+**/bin/
+**/obj/
+**/.vs/
+/libwebpay/webpay.transbank.library/packages/*
